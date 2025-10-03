@@ -69,10 +69,38 @@ Lower α increases randomness; higher α emphasizes link structure.
 ### Toy Graph Example  
 Validation on a small adjacency matrix confirmed consistent ranking with both custom and NetworkX methods.  
 
+## Requirements
+numpy>=1.23
+scipy>=1.10
+networkx>=3.1
+
 ## Installation & Usage  
 
 ```bash
 git clone https://github.com/raha1382/PageRankAlgorithm.git
 cd PageRankAlgorithm
 pip install -r requirements.txt
+```
 
+## Setting Up a Virtual Environment (Optional but Recommended)
+
+1. Create a virtual environment:
+
+```bash
+python -m venv venv
+```
+2. Activate the virtual environment:
+
+Windows:
+```bash
+venv\Scripts\activate
+```
+Linux / macOS:
+```bash
+source venv/bin/activate
+
+```
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
