@@ -2,6 +2,10 @@
 
 This project implements and analyzes the **PageRank algorithm** using different approaches and compares their accuracy, efficiency, and interpretability.The project focuses on implementing and analyzing the PageRank algorithm using the Berkeley-Stanford Web Graph dataset.  
 
+## 🛠️ Languages & Tools Used
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
 ## Features  
 
 - **Custom PageRank Implementation**  
