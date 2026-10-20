@@ -2,9 +2,11 @@
 
 This project implements and analyzes the **PageRank algorithm** using different approaches and compares their accuracy, efficiency, and interpretability.The project focuses on implementing and analyzing the PageRank algorithm using the Berkeley-Stanford Web Graph dataset.  
 
+Course project for **Linear Algebra Applications in Data Mining**.
+
 ## 🛠️ Languages & Tools Used
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ## Features  
 
@@ -68,7 +70,7 @@ Page ID: 39, Score: 0.03127
 - α = 0.75 → 0.0241  
 - α = 0.99 → 0.0022  
 
-Lower α increases randomness; higher α emphasizes link structure.  
+Higher α emphasizes the link structure and reduces the residual; α closer to 1 means less random teleportation. 
 
 ### Toy Graph Example  
 Validation on a small adjacency matrix confirmed consistent ranking with both custom and NetworkX methods.  
